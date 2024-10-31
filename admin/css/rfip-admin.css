@@ -1,0 +1,71 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ .status.success {
+    color: green;
+ }
+
+ .status.error {
+    color: red;
+ }
+
+ #authorize_api td:nth-child(2) {
+    width: 100px !important;
+}
+
+.connected-forms > div {
+   margin-bottom: 20px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+max-width:75%;
+}
+.grid-container select,.grid-container input {
+width: 60%;
+}
+span.to {
+margin-left: 60px
+}
+
+span.plus-icon,span.minus-icon,span.edit-icon {
+cursor: pointer !important;
+}
+
+span.plus-icon svg,span.minus-icon svg,span.edit-icon svg {
+width: 20px;
+margin-left: 20px;
+vertical-align: middle;
+cursor: pointer;
+background: #000;
+fill: #fff;
+padding: 4px;
+border-radius: 5px;
+}
+
+a.nav-tab.disabled {
+   cursor: not-allowed;
+  text-decoration: none;
+}
+
+.box
+{
+  border: 1px solid green;
+  position:absolute;
+  color: white;
+  top: 25px;
+  left: 30px;
+  padding: 10px;
+  background-color: red;
+}
+
+a.nav-tab.disabled:hover {
+   border: 1px solid #c3c4c7;
+   background: #dcdcde;
+   color: #50575e;
+}
+
+input#raoformserror {
+   display: none;
+}
